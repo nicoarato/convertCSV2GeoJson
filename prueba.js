@@ -5,15 +5,14 @@ let fileOutputName = 'archivo.json';
 
 csvToJson.generateJsonFileFromCsv(fileInputName,fileOutputName);
 
-let json2 = csvToJson.getJsonFromCsv("pac_202105.csv");
-let json = '';
+let fileCsv = csvToJson.getJsonFromCsv("pac_202105.csv");
 let archivoJson = '{"type": "FeatureCollection","features":';
 
-for(let i=0; i<json2.length;i++){
-    let objJson = json2[i];
-    let lat = objJson.latitud.replace(",",".");
-    let lon = objJson.longitud.replace(",",".");
-    json = `{
+for(let i=0; i<fileCsv.length;i++){
+    let objJson = fileCsv[i];
+    let latitud = objJson.latitud.replace(",",".");
+    let longitud = objJson.longitud.replace(",",".");
+    let json = `{
       "type": "Feature",
       "properties": {
         "red": ${objJson.red},
@@ -26,24 +25,22 @@ for(let i=0; i<json2.length;i++){
       "geometry": {
         "type": "Point",
         "coordinates": [
-          ${lon},${lat}
+          ${longitud},${latitud}
         ]
       }
     }`;
     archivoJson += (i===0) ? `[${json}`: `, ${json}`;
-    if( lon === '' || lat === '') 
+    if( longitud === '' || latitud === '') 
     {
-      console.log(`Agencia sin recaudación: ${objJson.red}/${objJson.subagente}`);
+      console.log(`Agencia sin coordenadas: ${objJson.red}/${objJson.subagente}`);
     }
   }
   
 archivoJson += ']}';
 
 const fs = require('fs')
-const jsonString = archivoJson;
-// console.log(jsonString);
 
-fs.writeFile('./geojson2021-05.json', jsonString, err => {
+fs.writeFile('./geojson2021-05.json', archivoJson, err => {
     if (err) {
         console.log('Error writing file', err);
     } else {
