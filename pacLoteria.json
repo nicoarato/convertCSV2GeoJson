@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "red": 6001,
+        "subagente": 0,
+        "permiso": 6001,
+        "titular": "AGENCIA MINES S.R.L.",
+        "promedio_ventas_3mes": 1201510,
+        "estado_comercial": "nuevo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.7089439,-31.647591
+        ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "red": 6001,
+        "subagente": 0,
+        "permiso": 6001,
+        "titular": "AGENCIA MINES S.R.L.",
+        "promedio_ventas_3mes": 1201510,
+        "estado_comercial": "nuevo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.6389656,-32.9573979
+        ]
+      }
+    }
+  ]
+}
