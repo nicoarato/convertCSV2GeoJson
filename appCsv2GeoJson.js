@@ -29,10 +29,11 @@ for(let i=0; i<fileCsv.length;i++){
         ]
       }
     }`;
-    archivoJson += (i===0) ? `[${json}`: `, ${json}`;
     if( longitud === '' || latitud === '') 
     {
       console.log(`Agencia sin coordenadas: ${objJson.red}/${objJson.subagente}`);
+    } else {
+      archivoJson += (i===0) ? `[${json}`: `, ${json}`;
     }
   }
   

@@ -242,22 +242,6 @@
       "type": "Feature",
       "properties": {
         "red": 6001,
-        "subagente": 35,
-        "permiso":59097,
-        "titular": "BONETTO, JUAN CARLOS",
-        "promedio_ventas_3mes": 198561,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 6001,
         "subagente": 36,
         "permiso":59035,
         "titular": "SAN MARTIN, PAMELA NATALIA",
@@ -4476,22 +4460,6 @@
         "type": "Point",
         "coordinates": [
           -60.7178497,-31.6014671
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 6395,
-        "subagente": 3,
-        "permiso":57371,
-        "titular": "MEDINA, ROCIO MARIANA",
-        "promedio_ventas_3mes": 407153,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
         ]
       }
     }, {
@@ -12482,22 +12450,6 @@
       "type": "Feature",
       "properties": {
         "red": 7670,
-        "subagente": 15,
-        "permiso":57861,
-        "titular": "MIEREZ, ALEJANDRO MIGUEL",
-        "promedio_ventas_3mes": 0,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 7670,
         "subagente": 16,
         "permiso":57903,
         "titular": "CALIGARIS, MARIANA MARCELA",
@@ -16034,22 +15986,6 @@
       "type": "Feature",
       "properties": {
         "red": 7710,
-        "subagente": 12,
-        "permiso":57765,
-        "titular": "TEJERIA, CARLOS GABRIEL",
-        "promedio_ventas_3mes": 328921,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 7710,
         "subagente": 13,
         "permiso":57764,
         "titular": "GUADAGNINI, SERGIO ARIEL",
@@ -17132,22 +17068,6 @@
         "type": "Point",
         "coordinates": [
           -60.7119674,-32.8890533
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 7714,
-        "subagente": 8,
-        "permiso":59427,
-        "titular": "LANZILLOTTA, FLORENCIA ANALIA",
-        "promedio_ventas_3mes": 0,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
         ]
       }
     }, {
@@ -24028,22 +23948,6 @@
         "type": "Point",
         "coordinates": [
           -61.0725135,-33.1713447
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 8510,
-        "subagente": 14,
-        "permiso":8607,
-        "titular": "PIERSANTELLI ANDREA ANA",
-        "promedio_ventas_3mes": 422744,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
         ]
       }
     }, {
@@ -35458,22 +35362,6 @@
       "type": "Feature",
       "properties": {
         "red": 9195,
-        "subagente": 33,
-        "permiso":8790,
-        "titular": "DENEGRI OSVALDO OLDEMAR",
-        "promedio_ventas_3mes": 69455,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 9195,
         "subagente": 34,
         "permiso":58950,
         "titular": "VELAZQUEZ RODRIGO DAMIAN",
@@ -37004,22 +36892,6 @@
         "type": "Point",
         "coordinates": [
           -60.7140121,-31.6306018
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "red": 9271,
-        "subagente": 11,
-        "permiso":59081,
-        "titular": "GAUNA DANIELA CECILIA",
-        "promedio_ventas_3mes": 308153,
-        "estado_comercial": "activo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          ,
         ]
       }
     }, {
