@@ -1,11 +1,12 @@
 let csvToJson = require('convert-csv-to-json');
 
-let fileInputName = 'pac_202105.csv'; 
-let fileOutputName = 'archivo.json';
+// let fileInputName = 'pac_202105.csv'; 
+// let fileOutputName = 'archivo.json';
 
-csvToJson.generateJsonFileFromCsv(fileInputName,fileOutputName);
+// csvToJson.generateJsonFileFromCsv(fileInputName,fileOutputName);
 
-let fileCsv = csvToJson.getJsonFromCsv("pac_202105.csv");
+// let fileCsv = csvToJson.getJsonFromCsv("pac_202105.csv");
+let fileCsv = csvToJson.getJsonFromCsv("datos_7231.csv");
 let archivoJson = '{"type": "FeatureCollection","features":';
 
 for(let i=0; i<fileCsv.length;i++){
@@ -20,7 +21,11 @@ for(let i=0; i<fileCsv.length;i++){
         "permiso":${objJson.permiso},
         "titular": "${objJson.titular.trim()}",
         "promedio_ventas_3mes": ${objJson.promedio_ventas_3mes},
-        "estado_comercial": "${objJson.estado_comercial}"
+        "estado_comercial": "${objJson.estado_comercial}",
+        "fecha_ultima_venta": "${objJson.fecha_ultima_venta}",
+        "estado": "${objJson.estado}",
+        "local": "${objJson.LOCAL}"
+
       },
       "geometry": {
         "type": "Point",
@@ -41,7 +46,7 @@ archivoJson += ']}';
 
 const fs = require('fs')
 
-fs.writeFile('./geojson2021-05.json', archivoJson, err => {
+fs.writeFile('./geojson7231.json', archivoJson, err => {
     if (err) {
         console.log('Error writing file', err);
     } else {
