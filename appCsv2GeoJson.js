@@ -24,7 +24,8 @@ for(let i=0; i<fileCsv.length;i++){
         "estado_comercial": "${objJson.estado_comercial}",
         "fecha_ultima_venta": "${objJson.fecha_ultima_venta}",
         "estado": "${objJson.estado}",
-        "local": "${objJson.LOCAL}"
+        "local": "${objJson.LOCAL}",
+        "localidad": "${objJson.localidad}"
 
       },
       "geometry": {
